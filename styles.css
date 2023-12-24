@@ -1,0 +1,99 @@
+/* Resize the favicon */
+
+link[rel="icon"] {
+    width: 32px;
+    height: 32x;
+    object-fit: cover;
+    margin-right: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f8f8f8;
+}
+
+.testimonies {
+    display: flex;
+    margin:0 2px;
+}
+
+.tablet {
+    background-color: #f8f8f8;
+    width: 350px;
+    height: 330px;
+
+    margin: 0 auto;
+    margin-top: 27px;
+    padding: 24px;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+   /* box-shadow: 0 4px 8px #000000;*/
+
+    
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.tablet p {
+    border-bottom: 1px solid #333; 
+    padding-bottom: 10px; 
+    margin-bottom: 15px; 
+}
+
+.side-by-side {
+    display: flex;
+    margin-bottom: 30px;
+    
+    
+}
+
+.side-by-side div {
+    margin-right: 120px;
+}
+
+.social img {
+    width: 25px;
+    height: 25px;
+    margin:0 auto;
+  }
+
+.line {
+    border-bottom: 1px solid #333;
+    margin-top: 22px;
+    margin-bottom: 35px;
+}
+
+.store {
+    display: flex;
+}
+
+.store h3 {
+    margin-right: -77px;
+}
+
+.store img {
+    width: 400px;
+    height: 136px;
+    object-fit: contain;
+    margin-top: -40px;
+}
+
+.notice {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-settings {
+    display:flex
+}
+
+.bottom-settings p {
+    margin:0 5px;
+    
+}
